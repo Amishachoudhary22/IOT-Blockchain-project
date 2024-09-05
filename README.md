@@ -1,21 +1,6 @@
-# IoT-and-Blockchain
+# IoT-and-Blockchain Integratino project
 
 A simple IoT and Blockchain based application to demonstrate the use of blockchain in IoT.
-
-## Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/en/download/)
-- [Python](https://www.python.org/downloads/)
-- Windows 8+ (for simulating GPIO pins on Windows), Raspberry Pi (for using actual GPIO pins)
-- [Windows Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) - Only for Windows (Simulating GPIO pins on Windows)
-
-> Note: _Windows Build Tools is required to install web3. Install through Powershell(Admin) if not installed already_
-
-```bash
-npm install -g windows-build-tools
-```
 
 ### Steps
 
@@ -62,11 +47,6 @@ Open http://localhost:8000 in your browser to see the app and Interact with the 
 - [GPIO Simulator](https://pypi.org/project/GPIOSimulator/) - Python library for simulating GPIO pins
 - [RPi.GPIO](https://pypi.org/project/RPi.GPIO/) - Python library for accessing GPIO pins on Raspberry Pi
 
-## Safety
-
-This is experimental software and subject to change over time.
-
-This is a proof of concept and is not ready for production use. It is not audited and has not been tested for security. Use at your own risk. I do not give any warranties and will not be liable for any loss incurred through any use of this codebase.
 
 ## License
 
